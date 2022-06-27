@@ -1,0 +1,242 @@
+.sub-landing {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.486)),
+    url("../assets/background/2.jpg");
+  background-position: center;
+}
+.sl-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sl-desc .title {
+  color: #fff !important;
+  font-size: 40px;
+}
+.map {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  li {
+    text-align: center;
+  }
+}
+.map li:not(:last-child) {
+  margin-right: 10px;
+}
+.map-item,
+.map-item a {
+  color: rgb(173, 173, 173);
+  font-size: 10pt;
+}
+.active {
+  color: #fff;
+}
+section.pp {
+  padding-top: 60px;
+}
+.ppp {
+  background-image: none !important;
+  .pp-desc {
+    color: #00171f;
+  }
+}
+.faq-sect {
+  margin: 40px auto;
+}
+.accordion-header button {
+  color: #007ea7;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+
+  &:focus {
+    // border-color: #007ea7;
+    outline: 1px solid #007ea7;
+  }
+}
+.accordion-body,
+ol {
+  letter-spacing: 1.2px;
+  line-height: 1.5;
+  font-size: 10pt;
+}
+.accordion-body ol li {
+  margin-bottom: 10px;
+}
+.ct-icons {
+  padding: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-landing {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.486)),
+    url("../assets/background/contact.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.cti {
+  flex: 1 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.cti p,
+.cti h2 {
+  text-align: center;
+}
+.cti h2 {
+  font-size: 15pt;
+  margin-top: 10px;
+}
+.cti p,
+.cti a {
+  font-size: 10pt;
+}
+.cti a {
+  color: #007ea7;
+}
+.cti img {
+  height: 80px;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 60px 0;
+  position: relative;
+  z-index: 1;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    background-image: url("../assets/background/wave.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+  }
+}
+@media (max-width: 1100px) {
+  .contact-form:after {
+    bottom: -10px;
+  }
+}
+.cf-desc {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.cfc {
+  display: flex;
+  justify-content: center;
+}
+.cf-form {
+  padding: 0 20px;
+  max-width: 600px;
+}
+.cf-item {
+  margin: 10px 0;
+}
+.cf-item input,
+.cf-item textarea {
+  border-radius: 3px;
+  letter-spacing: 1.2px;
+  width: 100%;
+  color: #797979;
+  font-size: 13px;
+  font-weight: 400;
+  height: 51px;
+  line-height: 49px;
+  border: 1px solid rgb(180, 180, 180);
+  background: #f4f4f4;
+  padding: 0 0 0 20px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: none;
+  &:focus-visible,
+  &:focus-within {
+    box-shadow: none;
+    outline-color: #007ea7;
+    outline-width: 2px;
+  }
+}
+.cf-item input {
+  height: 40px;
+}
+.cf-item textarea {
+  height: 130px;
+}
+
+.signup-form {
+  padding: 60px 0;
+  padding-top: 10px;
+}
+.suf {
+  display: flex;
+  justify-content: center;
+}
+.suf-desc {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 500px;
+
+  .sub {
+    line-height: 1.5;
+  }
+}
+.suf-form {
+  padding: 0 20px;
+  max-width: 600px;
+  margin-top: 30px;
+}
+.suf-item {
+  margin: 10px 0;
+}
+.suf-item input,
+.suf-item select {
+  border-radius: 3px;
+  letter-spacing: 1.2px;
+  width: 100%;
+  color: #797979;
+  font-size: 13px;
+  font-weight: 400;
+  height: 51px;
+  line-height: 49px;
+  border: 1px solid rgb(180, 180, 180);
+  background: #f4f4f4;
+  padding: 0 0 0 20px;
+  margin-bottom: 10px;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: none;
+  &:focus-visible,
+  &:focus-within {
+    box-shadow: none;
+    outline-color: #007ea7;
+    outline-width: 2px;
+  }
+}
+.su-footer {
+  padding-top: 0 !important;
+}
+.su-logo {
+  height: 50px;
+}
+.cf-cta {
+  border: none;
+}
+.si-title {
+  color: #134568 !important;
+}
